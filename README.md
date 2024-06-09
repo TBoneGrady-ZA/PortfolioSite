@@ -10,8 +10,6 @@ Including, but not limited to:
 -CSS Animations
 And much more!
 
-======
 NOTE:
-======
 
 PLEASE RUN THE 'APP.PY' FILE BEFORE ACCESSING 'INDEX.HTML' TO ENSURE PROPER USE OF THE CHAT BOT
