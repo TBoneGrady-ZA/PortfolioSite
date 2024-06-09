@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :D",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?","What can I call you?","Who are you?"],
+      "responses": ["My name is Buddi, nice to meet you!", "You can call me Buddi.", "I am Buddi, your soon to be new friend!"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What are you?",
+        "What Is your purpose?",
+        "What can you do?"
+      ],
+      "responses": [
+        "I am a deep learning ChatBot, developed to assist and brighten your day!",
+        "I am a deep learnig ChatBot, developed using pytorch, nltk, NumPy and other tools, here to help and hopefully put a smile on your face!",
+        "I am a deep learnig ChatBot, with the purpose of chatting helping you learn and making you smile!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "No Payments Neccessary, Thank You!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "brothers_questions",
+      "patterns": ["Who lives in a pineapple under the sea?",
+        "Absorbant yellow and porous is he"],
+      "responses": ["SPONGEBOB SQUAREPANTS!"]
+    },
+    {
+      "tag": "close",
+      "patterns": ["quit", "close", "exit"],
+      "responses": ["Did you just try and close me? :("]
+    },
+    {
+      "tag": "website",
+      "patterns": ["What is this website for?","What's this websites purpose","Tell me about this website"],
+      "responses": ["This website was developed by Raymond Kenney and intended as his portfolio site with the purpose of demonstrating his abilities and tracking progress."]
+    }
+  ]
+}
